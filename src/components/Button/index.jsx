@@ -9,10 +9,6 @@ export const Button = ({ text, botao, disabled = false }) => {
   );
 };
 
-Button.defaultProps = {
-  disabled: false,
-};
-
 Button.propTypes = {
   text: P.string.isRequired,
   botao: P.func.isRequired,
